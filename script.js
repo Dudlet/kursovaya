@@ -80,6 +80,13 @@ function createHighcharts(data) {
         data: data[2],
         yAxis: 1
       },
+      {
+        name: "Средний возраст",
+        color: "#7FFF00",
+        type: "column",
+        data: data[3],
+        yAxis: 1
+      }
     ],
     tooltip: {
       shared: true
