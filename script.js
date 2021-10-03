@@ -73,6 +73,13 @@ function createHighcharts(data) {
           valueSuffix: " M"
         }
       },
+      {
+        name: "Плотность (Ч/Км²)",
+        color: "#FF404E",
+        type: "areaspline",
+        data: data[2],
+        yAxis: 1
+      },
     ],
     tooltip: {
       shared: true
